@@ -1,0 +1,158 @@
+// FUNCTIONALITY
+.user-nav__icon-box:hover .chat {
+    visibility: visible;
+    opacity: 1;
+    max-height: 25rem;
+}
+
+.user-nav__icon-box:hover .chat__btn {
+    animation: delay .3s ease .3s forwards;
+}
+
+// CHAT STYLE
+.chat {
+    background-color: var(--color-grey-light-1);
+    border: 1px solid var(--color-grey-light-4);
+    border-radius: 5px;
+    width: 38rem;
+    max-height: 0;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 2;
+
+    transition: all .3s;
+
+    visibility: hidden;
+    opacity: 0;
+
+    &__title {
+        
+    }
+
+    &__list {
+        margin: 1rem 0;
+        max-height: 18rem;
+        overflow-y: scroll;
+    }
+
+    &__list::-webkit-scrollbar {
+        display: none;
+    }
+
+    &__item {
+        background-color: var(--color-grey-light-3);
+        border: 1px dashed var(--color-grey-dark-3);
+        border-radius: 3px;
+        padding: .5rem;
+        display: flex;
+        align-items: stretch;
+        transition: all .3s;
+        min-width: 100%;
+        max-height: 6.3rem;
+
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+
+        &:hover {
+            background-color: var(--color-grey-dark-3);
+        }
+
+        &:active {
+            background-color: var(--color-grey-dark-2);
+        }
+    }
+
+    // &__item:hover &__user-name,
+    &__item:hover &__date {
+        color: var(--color-primary-dark);
+    }
+
+    &__item:hover &__text {
+        color: #fff;
+    }
+
+    &__user {
+        margin-right: 1.2rem;
+
+        display: flex;
+        align-items: center;
+
+        &-photo {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 1rem;
+        }
+    }
+
+    &__message {
+        font-size: 1.1rem;
+        flex: 3;
+        overflow: hidden;
+    }
+
+    &__user-name {
+        color: var(--color-grey-dark-1);
+        font-size: 1.1rem;
+        font-weight: bolder;
+    }
+
+    &__date {
+        font-size: 1rem;
+        font-family: monospace;
+        font-weight: bolder;
+
+        flex: 1;
+        text-align: center;
+        align-self: flex-end;
+    }
+
+    &__btn:link,
+    &__btn:visited {
+        font-size: 1.2rem;
+        color: var(--color-primary);
+        text-decoration: none;
+
+        display: block;
+        width: 8rem;
+        padding: .4rem .8rem;
+        border-bottom: 1px solid currentColor;
+        align-self: flex-end;
+        
+        visibility: hidden;
+        opacity: 0;
+
+        transition: all .3s;
+    }
+
+    &__btn:hover {
+        background-color: var(--color-primary-dark);
+        color: var(--color-grey-light-1);
+
+        & span {
+            margin-left: .3rem;
+        }
+    }
+
+    &__btn:active {
+        transform: scale(.95);
+    }
+}
+
+@keyframes delay {
+    from {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
