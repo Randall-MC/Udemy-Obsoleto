@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: midnightblue;
+}
+
+.container {
+    text-align: center;
+
+    background-color: cadetblue;
+    width: 80%;
+    margin: 1px solid white;
+    border-radius: 3px;
+
+    color: bisque;
+}
