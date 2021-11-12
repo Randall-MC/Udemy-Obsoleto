@@ -1,0 +1,6 @@
+- Agregar iconos al principio del "h1" y del nombre de cada Gif.
+- Agregar un Login.
+- Mejorar la interfaz de Inicio ( lo primero que se ve ).
+- ( OPCIONAL ) Agregar un carrusel de imágenes.
+- Crear una grilla que acomode imágenes de diferentes medidas.
+- Mejorar el efecto hover sobre los gifs.
