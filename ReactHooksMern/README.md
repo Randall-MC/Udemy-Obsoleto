@@ -1,4 +1,5 @@
 # React: De cero a experto ( Hooks y MERN )
-> Aarthi Elumalai, the founder of DigiFisk.
+> ** Fernando Herrera **
+> A Full-Stack Developer & Teacher
 
-The ultimate beginners course for Javascript - Learn Modern Javascript for 2020 with a plenty of examples and projects.
+Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, SASS, Multiple Routers...
