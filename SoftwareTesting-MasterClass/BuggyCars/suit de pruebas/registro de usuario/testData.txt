@@ -1,0 +1,36 @@
+---------- Caso de prueba 1 ----------
+luismi
+Luis
+Miguel
+Luismi%8
+
+---------- Caso de prueba 3 ----------
+Chente
+Vicente
+Fernández
+udtccs
+
+---------- Caso de prueba 4 ----------
+luismi
+Jose
+Perez
+Josepe&9
+
+---------- Caso de prueba 5 ----------
+shavito8
+Chavo
+Del 8
+$H4v
+
+---------- Caso de prueba 6 ----------
+naruto
+Luis
+Miguel
+Naruto)6
+
+---------- Caso de prueba 7 ----------
+k3niw!s
+Ken
+Masters
+K3nma$ters
+Ryu4!go

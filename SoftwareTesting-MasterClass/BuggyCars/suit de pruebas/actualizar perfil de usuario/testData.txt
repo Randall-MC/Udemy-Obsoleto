@@ -1,0 +1,4 @@
+---------- Usuario de prueba ----------
+Login:  	   luismi
+Current Password:  Marian?7
+New Password:	   Mari4!
