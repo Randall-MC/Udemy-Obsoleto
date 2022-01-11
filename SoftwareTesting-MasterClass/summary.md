@@ -4,7 +4,7 @@
 
 ### Video 1
 
-En este curso aprenderé todo lo que necesitas sobre las pruebas de software, partiendo de los fundamentos del testing pasando por la metodologias de pruebas actuales en proyectos ágiles con SCRUM como también todo sobre automatización usando *CYPRESS* y *SELENIUM IDE*.
+En este curso aprenderé todo lo que necesitas sobre las pruebas de software, partiendo de los fundamentos del testing pasando por la metodologías de pruebas actuales en proyectos ágiles con SCRUM como también todo sobre automatización usando *CYPRESS* y *SELENIUM IDE*.
 
 ---
 
@@ -20,9 +20,9 @@ Recomendaciones para el curso.
 
 #### **¿Qué es el *software testing* y por qué es tan importante?**
 
-Todas las aplicaciones que usamos a diario tienen errores (también llamados **bugs**). Plataformas online como Facebook, Instagram, Youtube, corrigen una cantidad de bugs y esto se debe a constantes cambios en las reglas de negocio, errores de programación. Los errores o defectos en la aplicación impactan negativamente en el funcionamiento de la aplicación. El testing de software contribuye a que los usuarios persivan la menor cantidad de fallas y que tengan una mejor experiencia.
+Todas las aplicaciones que usamos a diario tienen errores (también llamados **bugs**). Plataformas online como Facebook, Instagram, YouTube, corrigen una cantidad de bugs y esto se debe a constantes cambios en las reglas de negocio, errores de programación. Los errores o defectos en la aplicación impactan negativamente en el funcionamiento de la aplicación. El testing de software contribuye a que los usuarios persivan la menor cantidad de fallas y que tengan una mejor experiencia.
 **Definición**  
-El **Testing** es una disciplina en la ingenieria de software que se realiza mediante una metodología de verificación y validación cuyo principal objetivo es localizar errores en un **software** para ser corregidos por el equipo de desarrollo y de esta manera ***aumentar la confianza en el nivel de calidad del sistema***.  
+El **Testing** es una disciplina en la ingeniería de software que se realiza mediante una metodología de verificación y validación cuyo principal objetivo es localizar errores en un **software** para ser corregidos por el equipo de desarrollo y de esta manera ***aumentar la confianza en el nivel de calidad del sistema***.  
 La importancia del software radica en que es mucho mejor y más barato la detección de errores temprano en el proceso de desarrollo. No solo afecta económicamente si no que afecta la reputación de la empresa.
 
 ---
@@ -37,7 +37,7 @@ Debe saber desglosar un sistema en unidades más pequeñas para poder crear caso
 Excelente comunicación verbal y escrita para comunicar los errores y documentarlos. Como testers estamos en constante comunicación con diferentes personas como desarrolladores, analistas de requisitos o el dueño del producto. Debes ser capaz de comunicar lo que encuentras ( cómo reproducir un error, escribir los pasos de un caso de prueba, explicarlo a una audiencia grande).
 - **Atención a detalles, curiosidad y sentido común**  
 Se requiere tener un pensamiento crítico con atención a detalles desde el punto de vista de un usuario final.
-- **Ser organizado y metodico**  
+- **Ser organizado y metódico**  
 Esto es clave para poder ejecutar los casos de prueba en un orden y poder encontrar la mayor cantidad de errores. Debemos seguir una metodología, todos los casos de prueba deben estar organizados de una manera lógica y secuencial ya que algunos casos de prueba requieren de datos. También se debe ser organizado con la documentación de los casos.
 - **Apasionado por la tecnología**  
 Tener gusto por la informática, ser curioso y creativo. Debemos ser capaces de configurarla y desconfigurarla ( ser capaces de dañarla y encontrar la mayor cantidad de errores a partir de ser curiosos ).
@@ -50,7 +50,7 @@ El desarrollo de software es un proceso que requiere flexibilidad y mucha pacien
 
 #### ***Responsabilidades de un Tester / QA***
 
-Diferencias entre tester y QA. Aunque en la práctica parecen lo mismo ( para las empresas ) en la teoria un QA ( Quality Assurance Assistant ) es el encargado del aseguramiento del todo el proceso de desarrollo del proyecto ( macro ) y el tester se encarga de la ejecución de las pruebas.
+Diferencias entre tester y QA. Aunque en la práctica parecen lo mismo ( para las empresas ) en la teoría un QA ( Quality Assurance Assistant ) es el encargado del aseguramiento del todo el proceso de desarrollo del proyecto ( macro ) y el tester se encarga de la ejecución de las pruebas.
 
 - **Plan de pruebas**  
 ¿Qué, Cómo y Cuándo se va a probar?
@@ -134,7 +134,7 @@ Un **Sprint** ( *Ciclo Iteración* ) es un periodo de tiempo dónde el equipo ( 
 - **Team:** El *equipo de desarrollo* está compuesto por *Desarrolladores ( Dec )*, *Analistas de requisitos ( BA )*, *Testers ( QA )*, *Arquitectos*, *Diseñadores*.
 
 ---
- 
+
 ### Video 10
 
 #### **Eventos en Scrum**
@@ -142,7 +142,7 @@ Un **Sprint** ( *Ciclo Iteración* ) es un periodo de tiempo dónde el equipo ( 
 El corazón de Scrum es un **Sprint** ( un *Sprint* es un ciclo de iteración ), que puede ser de dos a cuatro semanas ( recomendado ), y durante ese tiempo se llevan a cabo reuniones.
 
 0. **Sprint Backlog**: Son las necesidades que requiere el product owner. Se detallan y socializan las **historias de usuario** ( requisitos del cliente, necesidades del cliente ).
-1. **Planeación del Sprint**: Es la primera reunión que se realiza al inicio del Sprint, el equipo de trabajo se reune ( *scrum team*, *product owner*, *scrum master* ) y sirve para seleccionar lo items ( elementos ) en los que se va trabajar y cómo se van a hacer. Se organizan las actividades de desarrollo y de define el objetivo del Sprint. Las actividades se anotan en el *Scrum Board*.
+1. **Planeación del Sprint**: Es la primera reunión que se realiza al inicio del Sprint, el equipo de trabajo se reúne ( *scrum team*, *product owner*, *scrum master* ) y sirve para seleccionar lo items ( elementos ) en los que se va trabajar y cómo se van a hacer. Se organizan las actividades de desarrollo y de define el objetivo del Sprint. Las actividades se anotan en el *Scrum Board*.
 2. **Reunión diaria ( Daily Meeting )**: Es una reunión de 15 minutos en la que cada miembro del equipo de desarrollo da un *update* de lo que está haciendo o impedimentos que tenga.
 3. **Revisión del Sprint ( Review )**: Ocurre al final del Sprint dónde el product owner y el equipo presentan a los usuarios ( stakeholders ) el incremento terminado del producto para su inspección y adaptación. El tiempo aproximado de la reunión es de 1 hora. Se hacen las pruebas de aceptación de usuario ( *UAT - User Acceptance Testing*  ).
 4. **Retrospectiva ( Retrospect )**: Ocurre después de la revisión del sprint, se hace una reflexión del sprint y se discuten oportunidades de mejora para el próximo sprint. El tiempo aproximado de la reunión es de 1 hora.
@@ -247,3 +247,282 @@ Están escritas desde el punto de vista del cliente, generalmente tienen la sigu
 ---
 
 ### Video 15
+
+#### Tu turno de diseñar casos de prueba para <https://buggy.justtestit.org/>
+
+**Objetivo**: Leer las historias de usuario definidas para el sitio Buggy Cars y a partir de este, diseñar casos de prueba positivos y negativos que nos permitan abarcar todas las funcionalidades y detectar los bugs. Con este ejercicio se pretende medir el *pensamiento lógico*, *atención a detalles*, *comprensión de las historias de usuario*, *creatividad y diseño de casos de prueba*.
+
+1. Leer las historias de usuario definidas por el BA ( Business Analyst ) para el sitio Buggy Cars.
+    - a) La clave debe tener como ***mínimo 8 caracteres***, incluyendo al menos una ***letra mayúscula***, un ***carácter especial*** y un ***número***.
+2. Descargar la plantilla de casos de prueba en excel que se encuentra como recursos en este capítulo.
+3. Proceder a diseñar los casos de prueba utilizando todas las técnicas aprendidas hasta el momento.
+4. Ejecutar los casos de prueba y documentarlos en el mismo archivo.
+
+Archivo editado en este [enlace](https://docs.google.com/spreadsheets/d/14vpZjqGzodbcaAxsleGzLNYzWyfKUx4v6Oa23FQRf3o/edit#gid=406087718 "Hojas de cálculo de google")
+
+---
+
+### Video 16
+
+#### **¿Qué es un bug?**
+
+Se refiere a un **error o defecto en el software** que hace que un programa no funcione correctamente. La mayoría de los bugs se originan por *errores de quienes desarrollan el código de un software o sistema*, al diseñar estos o al no ser compatibles con otros programas o hardware.
+
+Si se reporta un bug de manera eficiente un bug la probabilidad de que se resuelva el bug es mayor. La solución de una falla dependerá de la eficiencia con que se reporte la misma. Como testers debemos asegurarnos que los bugs son reportados exitosamente.
+
+#### **Estructura básica de un reporte de bug**
+
+- Identificador del bug
+- Titulo del error
+- Reportado por
+- Descripción del error
+- Pasos de reproducción
+- Resultado esperado
+- Resultado obtenido
+- Impresión de pantalla / Video ( Evidencia )
+- Sistema operativo / Browser
+- Severidad / Prioridad
+
+¿Cómo reportar un bug? Se puede hacer en excel, word o si la empresa maneja algún bug tracker como ***JIRA***, ***Azure DevOps***.
+
+---
+
+### Video 17
+
+Ejemplos de reportes de bug.  
+Cuando ya se han realizado todos los casos de prueba podemos ejecutar las pruebas exploratorias ( libres ). Es cuando se prueba el proyecto de forma libre, son pruebas que no están en los criterios de aceptación ( historias de usuario ), si se encuentra algún bug debe reportarse.
+
+---
+
+### Video 18
+
+Otros sitios para que practiques.
+
+---
+
+### Video 19
+
+Encontrar todos los bugs restantes de <https://buggy.justtestit.org/>  
+**Requisitos previos**: Para poder empezar esta actividad ya debes haber terminado el diseño y ejecución de los casos de prueba básicos sobre el sitio de la actividad del capítulo 17.  
+**Objetivo de la actividad**: Esta actividad pretende medir varias habilidades como la *atención a los detalles*, el *pensamiento crítico*, tu *capacidad para encontrar bugs* como también la *forma como los documentas*. Todas estas son habilidades primordiales dentro del Testing.
+
+1. En tu browser abrir el sitio objeto de pruebas [Buggy Cars](https://buggy.justtestit.org/ "Sitio de pruebas")
+2. Descarga la plantilla de reporte de bugs, y procede a documentar la mayor cantidad de bugs que encontraste en tus pruebas, usando el mismo archivo siguiendo la misma estructura de la tabla.
+
+***Nota***
+
+- Trata de encontrar la mayor cantidad de bugs posibles desde el punto de vista de un usuario final, ***el sitio tiene 16 bugs en diferentes páginas***.
+- Ejecutar pruebas en varios navegadores
+- Ejecuta pruebas de visualización en varios móviles usando Google Chrome DevTools.
+
+#### *Lista de bugs*
+
+- bug #1 Al hacer clic en el botón de navegación **"Buggy Rating"**, el botón no ejecuta la acción
+- bug #2 ordenar la lista de los autos por "Rank"
+- bug #3 botones de navegación avanza a páginas inexistentes
+- bug #4 error en miniatura de auto en la página 5
+- bug #5 se puede ver la información de un usuario después de cerrar sesión
+- bug #6 el buscador de paginas no funciona correctamente
+- bug #7 cuando haces clic en el botón de navegación "siguiente" agrega un dígito más al cuadro de navegación
+
+---
+
+### Video 20
+
+Reportando un bug en ***Jira Software***
+
+---
+
+### Video 21
+
+#### Ciclo de vida de un bug
+
+- Cuando el tester encuentra un bug, falla o error (en los casos de prueba o pruebas exploratorias) genera un reporte de bug con un estado de ***Nuevo***.
+- Después de que es creado pasa a estado ***Activo***.
+- El Tester lo asigna a un programador y cambia a estado ***Asignado***.
+- EL encargado de resolver el bug puede determinar, "No es un defecto o está duplicado", o sea que el o la asignado(a) determinan si lo que se reporta no es un bug o si ya existe un ticket asignado a ese error (bug) y entonces el reporte cambia de estado a ***Rechazado***.
+- O puede determinan que si es válido el reporte y proceder a corregir el error. Entonces, el reporte cambia de estado a ***Arreglado***.
+- Después el reporte pasa a el estado ***Verificado*** y el Tester prueba que la solución funcione y si no funciona es reasignado al mismo programador.
+- Si la solución funciona se pasa al estado ***Cerrado***, se documenta la prueba y se cierra el bug.
+
+---
+
+### Video 22
+
+***Tipos de prueba***
+
+#### **Pruebas Funcionales**
+
+Las pruebas funcionales garantizan que las características y funcionalidades del software se comportan según lo esperado sin ningún problema, son pruebas basadas en requerimientos del software, escritas en historias de usuario.
+
+- ***Pruebas Unitarias***
+Se hacen en tiempo de desarrollo, son automatizadas por programadores y se validan los resultados esperados a nivel de código. Por ejemplo, una prueba que valida el valor de una variable. Son pruebas técnicas que se hacen a nivel de desarrollo.
+
+- ***Smoke Test***
+Se realiza después de ejecutar una build del software para asegurarnos de que ciertas funcionalidades básicas y críticas del programa funcionan correctamente. Es la prueba típica dónde vamos a verificar que la aplicación al menos si carga. es la primera prueba para verificar la estabilidad de la aplicación.
+
+- ***Pruebas Unitarias***
+Este tipo de pruebas se hacen cuando el proyecto es muy grande y se tienen muchos módulos, muchas interfaces por lo que se realizan para validar que un módulo que se integra con otro módulo funciona correctamente entre ambos.
+
+- ***Pruebas de regresión***
+Consiste en probar un sistema que ha sido analizado previamente para asegurar que no se haya introducido algún tipo de defecto como resultado de cambios realizados. Se recomienda automatizarlos, también, que se hagan al final de cada sprint cuando se tenga lista una funcionalidad que va a ser lanzada a producción.
+
+- ***Pruebas de aceptación UAT***
+Son pruebas que hace el cliente o el usuario final una vez se han hecho todas las demás pruebas. También conocida como prueba **beta** o de **usuario final*, se define como la prueba del software por parte del usuario o cliente para saber si puede ser aceptado o no. El objetivo principal de esta prueba es validar que el software frente a los requisitos comerciales.
+
+> Las 'pruebas manuales' hechas anteriormente son 'funcionales'
+
+#### **Pruebas no funcionales**
+
+Se enfocan en características no funcionales del sistema, por ejemplo, características como el rendimiento, estabilidad, accesibilidad, sostenibilidad, capacidad, compatibilidad.
+
+- ***Pruebas de rendimiento ( Performance )***
+Es una técnica de prueba de software no funcional que determina cómo la estabilidad, la velocidad, la escalabilidad y la capacidad de respuesta de una aplicación se mantiene baja una determinada carga de trabajo. Pruebas de carga o de estés. Son pruebas que se hacen con software especializado ( Apache JMeter, SoapUI ) que simulan carga sobre un sistema, por ejemplo una carga excesiva de usuarios ingresando información en un formulario en una página web.
+
+- ***Pruebas de seguridad***
+Se pueden definir como el conjunto de actividades que se llevan a cabo para encontrar fallas y vulnerabilidades en aplicaciones web, buscando disminuir el impacto de ataques a ellas y pérdida de información importante.Son pruebas que se hacen en ambientes controlados con software especializado que hacen testers especializados en pruebas de seguridad, pueden ser hackers o hackers éticos que por medio de técnicas sofisticadas y avanzadas encuentran fallas de seguridad.
+
+---
+
+## Section 5
+
+### Video 23
+
+***Herramientas usadas en testing***
+
+- Capturas de pantalla / Cross Browser Tests
+- Gestor de proyectos Scrum / errores
+- Gestor de casos de prueba
+- Automatización de pruebas / API testing
+
+---
+
+### Video 24
+
+Herramientas para capturar pantalla y vídeo
+
+---
+
+### Video 25
+
+Overview de JIRA, Azure DevOps y Trello.
+
+---
+
+### Video 26
+
+TestRail gestor de casos prueba
+
+---
+
+### Video 27
+
+Google Chrome Dev Tools
+
+---
+
+### Video 28
+
+VSCode + GitHub
+
+---
+
+### Video 29
+
+Cross browser y mobile testing
+
+---
+
+## Section 6
+
+### Video 30
+
+#### **Pruebas manuales**
+
+Son ejecutadas directamente por uno o más testers, simulando las acciones del usuario final, apoyándose de las herramientas necesarias.
+
+***Ventajas***
+
+- Para proyectos cortos son más rápidas. Si el proyecto dura uno o dos Sprints y no se va a volver a trabajar en el mismo proyecto. No hay necesidad de invertir mucho tiempo programando casos de prueba que no se van a volver a ejecutar.
+-Son más flexibles. Permite al tester la creatividad en la ejecución o combinación de casos alternativos.
+- Al ser ejecutadas por un humano pueden detectar problemas o bugs no funcionales que no son detectados por un programa como lo es la usabilidad, la navegabilidad o experiencia de usuario.
+- No requieren de conocimiento técnicos profundos o programación aunque sería ideal.
+- Permiten probar escenarios complejos con secuencias largas de pasos en sistemas antiguos difíciles de automatizar.
+
+***Desventajas***
+
+- Se pueden volver una actividad repetitiva y tediosa cuando se trata de proyectos grandes. Ejemplo: Estás trabajando en un proyecto de 5 o 6 meses donde al finalizar cada Sprint debes correr las pruebas de regresión y estas pruebas son una cantidad de casos de prueba que se hacen manualmente, esto tomaría mucho tiempo y puede retrasar al equipo y eso estaría violando una de las variables de restricción.
+
+> Las variables de la **Triple Restricción** son **Alcance, Costo y Tiempo**.
+
+- Cuando el proyecto tiene muchos bugs, las repruebas y pruebas de regresión se vuelven muy costosas de ejecutar. Esto está relacionado con lo anterior y es que si un sistema tiene muchos bugs quiere dicer que cada vez que haya un arreglo de uno de esos bugs tenemos que volver a ejecutar la prueba.
+- En proyectos grandes, la repetición de pruebas manuales pueden hacer que el QA omita defectos debido al cansancio.
+- Poca reusabilidad, cada vez que se hace un cambio se debe volver a probar todo desde cero. Los cambios en el sistema ( basados en el requerimientos ) hacen que todo se vuelva a probar, se tiene que hacer todo desde cero.
+
+#### **Pruebas automatizadas**
+
+Son programadas por medio de scripts y programas, simulando las acciones del usuario final. Las pruebas se ejecutan automáticamente en un servidor de pruebas, laptop o un sistema de integración CI / CD.
+
+***Ventajas***
+
+- La ejecución de casos es rápido y eficiente.
+- Brindan un mayor grado de confiabilidad y precisión.
+- Tienen un mayor **ROI** ( *Return of Investment* ), en proyectos grandes ayuda a reducir costos en pruebas y detección de bugs. Si el proyecto tiene muchos Sprints y vamos a correr la misma "*n*" veces prueba en cada Sprint, vale la pena pensar automatizar esa prueba porque la vamos a correr tantas veces que vamos a tener un alto grado sobre esa inversión inicial que es diseñar la prueba ( automatizarla ), especialmente los casos que mas se corren, como las pruebas de regresión.
+- Son reusables, se pueden correr una y otra vez en minutos con alto grado de cobertura. Se pueden programar para que corran en cualquier momento sin intervención humana.
+- Las pruebas se pueden programar para que corran a cualquier momento sin intervención humana CI / CD.
+
+***Desventajas***
+
+- Automatizar las pruebas requiere una inversión de tiempo.
+- Automatizar pruebas requiere de un conocimiento técnico que algunos QAs principiantes aún no tienen.
+- Algunas herramientas de automatización son costosas.
+- Las pruebas automáticas no proveen de un feedback de aspectos del sistema como la usabilidad.
+
+---
+
+### Video 31
+
+Instalación + primeros pasos en Selenium IDE ( caso de prueba "Registrar nuevo usuario" )
+
+---
+
+### Video 32
+
+Selenium IDE caso de prueba "Validación página de inicio"
+
+---
+
+### Video 33
+
+Herramientas básicas de Selenium IDE
+
+---
+
+### Video 34
+
+---
+
+### Video 35
+
+#### Automatizando suits de pruebas usando **Selenium IDE**
+
+***Sitio de pruebas***: <http://automationpractice.com/index.php>
+
+- Validar los elementos básicos de la página de inicio
+  - Validar header de la parte superior con la imagen 70% off esté visible.
+  - Validar el número telefónico de contacto de la parte superior izquierda sea 0123-456-789.
+  - Validar logo de la parte superior izquierda siempre sea visible.
+  - Validar caja de búsqueda de la parte superior sea visible.
+  - Validar que al dar clic al botón superior derecho "**Sign in**" se abra la página de autenticación, el titulo de dicha página debe decir "*Login - My Store*".
+- Automatizar la compra de un articulo de la tienda
+  - Busca el siguiente artículo "Faded Short Sleeve T-shirts".
+  - Validar que la imagen del artículo sea visible.
+  - Validar que el precio sea **$16.51**.
+  - Validar que se pueda adicionar al carrito y proceder al checkout.
+  - Validar que el precio total con impuestos en el resumen del checkout sea **$18.51**.
+
+---
+
+### Video 36
+
+---
