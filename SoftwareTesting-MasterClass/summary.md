@@ -525,4 +525,88 @@ Herramientas básicas de Selenium IDE
 
 ### Video 36
 
+#### **Automatización de pruebas con *Cypress* y *Javascript***
+
+Cypress es un framework de testing automatizado moderno y todo en uno. Es rápido, fácil de usar y permite ejecutar pruebas sobre cualquier aplicación web. Cypress corre en Node.js
+
+Cypress te permite crear pruebas automatizadas.
+
+- End to end -> De un extremo a otro, un caso de prueba completo con muchos pasos, desde una página hasta otra probando diferentes cosas en el transcurso.
+- Pruebas de integración -> pruebas de APis, pruebas de componentes.
+- Pruebas unitarias
+
+***Ventajas***
+
+- Cypress tiene un ejecutor de pruebas que nos permite seleccionar el browser en donde queremos ejecutar las pruebas.
+- Nos permite crear fotos, snapshots, vídeos de las pruebas.
+- Nos muestra los resultados en la consola.
+- Podemos generar reportes en HTML.
+- Tiene bastante documentación en internet.
+- Es gratis
+
+---
+
+### Video 37
+
+Instalación de VS Code, Node.JS, NPM y Cypress
+
+---
+
+### Video 38
+
+Primeros pasos con Cypress
+
+---
+
+### Video 39
+
+Pruebas End to End transferencias
+
+---
+
+### Video 40
+
+Hooks, fixtures y ejecutar pruebas por CLI modo headless con parámetros
+
+---
+
+### Video 41
+
+Cypress es un herramienta de automatización de pruebas de software, especialmente para páginas web, utiliza javascript, node.js
+
+---
+
+### Video 42
+
+Descargar el código Cypress
+
+---
+
+### Video 43
+
+#### Actividad de automatización con Cypress
+
+***Sitio de pruebas***: <http://automationpractice.com/index.php>
+
+- **Suit de casos de pruebas para que se valide los elementos básicos de la página de inicio**
+
+  1. Validar que el logo de la parte superior izquierda siempre sea visible.
+  2. Validar que la caja de búsqueda de la parte superior sea visible.
+  3. Validar que el header superior con la imagen "70% off" esté visible.
+  4. Validar que número telefónico de contacto de la parte superior izquierda sea 0123-456-789.
+  5. Validar que al dar clic al botón superior derecho "*Sign in*" se abra la página de autenticación, el título de dicha página debe decir "**Login - My Store**".
+
+- **Automatiza una compra de un artículo de la tienda**
+  1. Busca el siguiente artículo "Faded Short Sleeve T-shirts".
+  2. Validar que la imagen del artículo sea visible.
+  3. Validar que el precio sea **$16.51**.
+  4. Validar que se pueda adicionar al carrito y proceder al checkout.
+  5. Validar que el precio total con impuestos en el resumen del checkout sea **$18.51**.
+
+---
+
+## Section 7
+
+### Video 44
+
 ---
