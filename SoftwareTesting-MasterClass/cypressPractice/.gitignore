@@ -1,0 +1,14 @@
+# Cypress
+# cypress/fixtures
+# cypress/plugins
+# cypress/support
+
+# Cypress / Integration
+# cypress/integration/1-getting-started
+# cypress/integration/2-advanced-examples
+
+# Cypress / Videos
+cypress/Videos/
+
+# Node Modueles
+node_modules/
