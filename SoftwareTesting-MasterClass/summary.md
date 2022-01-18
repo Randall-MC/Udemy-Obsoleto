@@ -248,6 +248,7 @@ Están escritas desde el punto de vista del cliente, generalmente tienen la sigu
 
 ### Video 15
 
+<!-- Aquí un enlace automático -->
 #### Tu turno de diseñar casos de prueba para <https://buggy.justtestit.org/>
 
 **Objetivo**: Leer las historias de usuario definidas para el sitio Buggy Cars y a partir de este, diseñar casos de prueba positivos y negativos que nos permitan abarcar todas las funcionalidades y detectar los bugs. Con este ejercicio se pretende medir el *pensamiento lógico*, *atención a detalles*, *comprensión de las historias de usuario*, *creatividad y diseño de casos de prueba*.
@@ -258,6 +259,7 @@ Están escritas desde el punto de vista del cliente, generalmente tienen la sigu
 3. Proceder a diseñar los casos de prueba utilizando todas las técnicas aprendidas hasta el momento.
 4. Ejecutar los casos de prueba y documentarlos en el mismo archivo.
 
+<!-- Aquí un ejemplo de enlace en línea -->
 Archivo editado en este [enlace](https://docs.google.com/spreadsheets/d/14vpZjqGzodbcaAxsleGzLNYzWyfKUx4v6Oa23FQRf3o/edit#gid=406087718 "Hojas de cálculo de google")
 
 ---
@@ -361,7 +363,7 @@ Se hacen en tiempo de desarrollo, son automatizadas por programadores y se valid
 - ***Smoke Test***
 Se realiza después de ejecutar una build del software para asegurarnos de que ciertas funcionalidades básicas y críticas del programa funcionan correctamente. Es la prueba típica dónde vamos a verificar que la aplicación al menos si carga. es la primera prueba para verificar la estabilidad de la aplicación.
 
-- ***Pruebas Unitarias***
+- ***Pruebas de Integración***
 Este tipo de pruebas se hacen cuando el proyecto es muy grande y se tienen muchos módulos, muchas interfaces por lo que se realizan para validar que un módulo que se integra con otro módulo funciona correctamente entre ambos.
 
 - ***Pruebas de regresión***
@@ -532,7 +534,7 @@ Cypress es un framework de testing automatizado moderno y todo en uno. Es rápid
 Cypress te permite crear pruebas automatizadas.
 
 - End to end -> De un extremo a otro, un caso de prueba completo con muchos pasos, desde una página hasta otra probando diferentes cosas en el transcurso.
-- Pruebas de integración -> pruebas de APis, pruebas de componentes.
+- Pruebas de integración -> pruebas de APIS, pruebas de componentes.
 - Pruebas unitarias
 
 ***Ventajas***
@@ -608,5 +610,150 @@ Descargar el código Cypress
 ## Section 7
 
 ### Video 44
+
+#### ¿**Qué es una API**?
+
+Una **API** ( *Application programing interface* ) es un conjunto de procedimientos y funciones creados para permitir la comunicación entre 2 aplicaciones, o una aplicación con una base de datos u otro sistema, también son usadas comúnmente por páginas web para reutilizar servicios que ya han sido creados por grandes compañías como por ejemplo Google, Facebook, PayPal, Twitter, etc.
+
+Las APIS, tienen una URL ( recurso ), método ( GET, POST, DELETE ) y un código de estado ( 200, 400 )
+
+---
+
+### Video 45
+
+<!-- Aquí un enlace como referencia -->
+Ejemplo de una API en un sitio real [BuggCars][referencia]
+
+[referencia]: https://buggy.justtestit.org/
+
+---
+
+### Video 46
+
+#### **API Testing**
+
+Lo que hace es validar y verificar que las funcionalidades responden correctamente, por lo que se considera un tipo de prueba a bajo nivel, es decir, que no interactuá directamente con la interfaz de usuario. Es indispensable hacer pruebas en APIS para tener mayor cobertura en las pruebas y aportar mayor calidad al producto final.
+
+***Beneficios de API testing***
+
+- No es necesario contar con el producto totalmente terminado para comenzar a probar, basta con tener conexión a las APIS para ir probando sus funcionalidades.
+- Mayor velocidad de ejecución.
+- Reducción de errores.
+
+#### **Pirámide de pruebas**
+
+Es una guía sobre qué tipos y cuántos de cada tipo de prueba realizar. La pirámide de automatización de pruebas ayuda a crear pruebas más eficientes y ha dado como resultado software más confiable.
+
+Es una gran metáfora visual que describe diferentes capas de prueba y cuántas pruebas se deben realizar en cada capa.
+
+![Pirámide de pruebas](https://www.parasoft.com/wp-content/uploads/2021/04/Simple_Testing_Pyramid_20210402-1-300x276.png, "Pirámide de pruebas")
+
+**Pruebas Unitarias**: Están en la parte inferior y representan las pruebas más granulares, de las cuales debería tener muchas.
+
+**Pruebas de capa de integración o de servicio**: Es donde comienza a probar cómo interactúan sus componentes de software entre sí, ya sean integraciones internas o externas.
+
+**Pruebas de extremo a extremo (E2E)**: Es el más complejo y prueba el software en su conjunto para asegurarse de que funciona como se espera de principio a fin.
+
+***Beneficios***
+
+- Ahorro de tiempo y costes
+- Mejor precisión eliminando errores humanos
+- Capacidad para repetir, reutilizar y escalar pruebas según sus necesidades de software
+
+---
+
+### Video 47
+
+#### **Ejemplos de pruebas de APIS**
+
+1. *Pruebas de funcionalidad*  
+Verifican los requisitos operativos del producto. Estas funciones utilizan escenarios particulares para asegurarse que la API funciona según los parámetros previstos. Por ejemplo, probar que la API respondió con un estado **200** o no.
+2. *Pruebas de carga*  
+Comprueban si el API tiene la capacidad de manejar una cierta cantidad de carga. Revisa  cómo se comporta una API particular bajo cargas más altas de las que debía afrontar.
+3. *Pruebas de seguridad*  
+Incluyen las necesidades de seguridad de la API. Contiene permisos, autenticaciones y controles de acceso.
+
+---
+
+### Video 48
+
+Haciendo pruebas de APIS en **Postman** en el sitio *Buggy Cars Rating*
+
+---
+
+### Video 49
+
+#### **Ejercicio API testing**
+
+**Objetivo**: Usando *Postman*, crear una suite de pruebas automáticas para las siguientes APIS
+
+- **API Usuarios** <https://jsonplaceholder.typicode.com/users>
+  1. Validar que la API devuelva un estado 200
+  2. Validar que la API devuelva en la respuesta los campos *username*, *address*, *city*
+  3. Validar que la API responda en menos de 800 milisegundos
+- **API Comentarios** <https://jsonplaceholder.typicode.com/comments>
+  1. Validar que la API devuelva un estado 200
+  2. Validar que la API devuelva en la respuesta los campos *name*, *email*, *body*
+  3. Validar que la API responda en menos de 900 milisegundos
+- **API de fotos** <https://jsonplaceholder.typicode.com/photos>
+  1. Validar que la API devuelva un estado 200
+  2. Validar que la API devuelva en la respuesta los campos *albumId*, *title*, *url*
+  3. Validar que la API responda en menos de 800 milisegundos
+
+---
+
+### Video 50
+
+Descargar la solución del ejercicio anterior
+
+---
+
+## Section 8
+
+### Video 51
+
+#### ¿**Cómo encontrar trabajo en Testing**?
+
+1. ¡*Crea una hoja de vida que impacte al empleador*! Si tienes repositorios en GitHub con proyectos trabajados seria ideal.
+2. **Crea tu perfil de LinkedIn**
+    1. Incluye palabras clave y herramientas de testing en tu perfil.
+    2. En cada experiencia que tengas, debes poner tus funciones básicas, tecnologías trabajadas y si tienes algún reconocimiento.
+    3. Incluye todos los cursos relevantes a software testing.
+    4. Pídele a tus contactos que te validen conocimientos.
+    5. Pídele a tus contactos que te den recomendaciones y que describan proyectos de IT en los que hayas participado.
+    6. Genera valor en LinkedIn, escribe artículos sobre Testing para ganar visibilidad y reputación en la materia.
+    7. Sigue a las empresas de Software y Testing de tu ciudad en LinkedIn.
+    8. Adiciona a otros referentes de Testing en tu área como también reclutadores.
+    9. Escribe un post en tu perfil diciéndole a tu red que estás buscando trabajo como Tester.
+
+Es muy importante dedicarle tiempo a la *Hoja de Vida* o *CV*
+
+---
+
+### Video 52
+
+Creando perfil de LinkedIn
+
+---
+
+### Video 53
+
+Únete a grupos en Facebook, LinkedIn sobre Testing de Software o QA, también puedes usar meetUp
+
+---
+
+### Video 54
+
+#### ¿***Cómo ganar experiencia cuando eres principiante como QA freelancer***?
+
+- Haciendo Freelance en páginas como [**UTest**](https://www.utest.com/), [**UpWork**](https://www.upwork.com/), [**fiverr**](https://es.fiverr.com/?utm_source=google&utm_medium=cpc-brand&utm_campaign=g_mx-es_brand_desktop_exact&utm_term=one-fiverr_%28exact%29&utm_content=AdID%5E479148884616%5EKeyword%5Efiverr%5EPlacement%5E%5EDevice%5Ec&caid=11599025189&agid=114008777758&ad_id=479148884616&kw=fiverr&lpcat=br_general&show_join=trueu_sou%3Dgoogle&u_med=cpc-brand&u_cam=g_mx-es_brand_desktop_exact&u_ter&u_con=AdID%5E479148884616%5EKeyword%5Efiverr%5EPlacement%5E%5EDevice%5Ec&gclid=CjwKCAiAxJSPBhAoEiwAeO_fPw681vPfdlrXMFprbdY0JrI5gdlyr-4TorYnkut6jTJnfvtHRwXrjxoC0S0QAvD_BwE) o [**freelancer**](https://www.freelancer.com/)
+- Ser voluntario en Startups o proyectos que apenas arrancan en internet. Por ejemplo, escribir en Facebook o LinkedIn que apenas están comenzando su camino como testers o QAs y que quieren trabajar como voluntarios y que al final puedan certificarlos.
+- Probar páginas o proyectos existentes, crear casos de prueba, ejecutarlos, automatizarlos y subirlos a un repositorio. Si encuentras bugs, reportarlos a la empresa te sirve para demostrar experiencia.
+
+---
+
+### Video 55
+
+Salarios de Testing por países
 
 ---

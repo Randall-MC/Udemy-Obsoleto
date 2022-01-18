@@ -32,7 +32,7 @@ describe('Elementos básicos de la página de inicio', function() {
     })
 })
 
-describe.only('Compra de un artículo', function() {
+describe('Compra de un artículo', function() {
     it('Buscar el artículo "Faded Short Sleeve T-shirts"', function() {
         cy.get('#homefeatured > .first-in-line.first-item-of-tablet-line > .product-container')
         .should('be.visible')
