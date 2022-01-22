@@ -69,4 +69,92 @@ console.log('Hello World from Javascript')
 
 ### Video 9
 
+Tipos de datos en Javascript
+
+---
+
+### Video 10
+
+Operador **typeof**
+
+---
+
+### Video 11
+
+Más tipos de datos en Javascript
+
+---
+
+### Video 12
+
+Tipo de dato Array y valor Empty String
+
+---
+
+### Video 13
+
+Concatenación de cadenas en javascript
+
+---
+
+### Video 14
+
+Extensión botones de Quokka
+
+---
+
+### Video 15
+
+Var, Let y Const
+
+---
+
+### Video 16
+
+Buenas prácticas para nombres de variables ( notación de altas y bajas *Camel Case*)
+
+---
+
+### Video 17
+
+Reglas para definir nombres de variables
+
+---
+
+## Section 3
+
+### Video 18
+
+Operadores aritméticos en Javascript
+
+---
+
+### Video 19
+
+Operadores de incremento y decremento
+
+---
+
+### Video 20
+
+Precedencia de operadores en Javascript
+
+---
+
+### Video 21
+
+Operadores de asignación
+
+---
+
+### Video 22
+
+Operadores de comparación
+
+---
+
+### Video 23
+
+Operador diferente de
+
 ---
