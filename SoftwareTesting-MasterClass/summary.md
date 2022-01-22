@@ -622,7 +622,7 @@ Las APIS, tienen una URL ( recurso ), método ( GET, POST, DELETE ) y un código
 ### Video 45
 
 <!-- Aquí un enlace como referencia -->
-Ejemplo de una API en un sitio real [BuggCars][referencia]
+Ejemplo de una API en un sitio real [BuggyCars][referencia]
 
 [referencia]: https://buggy.justtestit.org/
 
