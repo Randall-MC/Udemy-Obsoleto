@@ -71,7 +71,7 @@ Realizar un reporte de pruebas.
 - **Ayudar a resolver dudas a los *Analistas de Requisitos* o *POs***  
 Resolver dudas del equipo. Somos como un punto de referencia para el resto del equipo.
 - **Ayudar a los programadores a replicar los errores e investigar su solución**  
-Ayudar a replicar errores i investigarlos.
+Ayudar a replicar errores e investigarlos.
 - **Implementar prácticas de aseguramiento de calidad para prevenir errores en el código**  
 Sugerencias de cómo implementar pruebas unitarias, pruebas a los requisitos. Implementar sugerencias sobre los criterios de aceptación.
 
