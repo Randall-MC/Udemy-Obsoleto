@@ -1,22 +1,65 @@
 class Superhero{
-    constructor( firstName, lastName, age ) {
+    constructor( firstName, lastName ) {
         this._firstName = firstName;
         this._lastName = lastName;
-        this._age = age;
     }
 
     get name() {
-        return `${this._firstName} ${this._lastName}`;
+        return this._firstName;
     }
 
-    set name( firstName ) {
-        this._firstName = firstName;
+    get lastName() {
+        return this._lastName;
+    }
+
+    set name( str ) {
+        this._firstName = str;
+    }
+    
+    set lastName( str ) {
+        this._lastName = str;
+    }
+
+    fullName() {
+        return this._firstName + " " + this._lastName;
+    }
+
+    // Overwriting the method of the class Object ( All objects in JS descend from Object, all objects inherit methods and properties from Object.prototype )
+    toString() {
+        // Applies polymorphism (multiple forms at runtime)
+        // The method run depend if is a class or subclass
+        return this.fullName();
     }
 }
 
-let Batman = new Superhero("Bruce", "Wayne", 36);
-console.log( Batman.name );
+// Sub
+class Gender extends Superhero {
+    constructor( firstName, lastName, gender ) {
+        super( firstName, lastName ); // Call the class Superhero
+        this._gender = gender;
+    }
 
-let Superman = new Superhero("Clark", "Kent", 42);
-// Superman.name = "Roberto"
-// console.log( Superman.name );
+    get gender() {
+        return this._gender;
+    }
+
+    set gender( str ) {
+        this._gender = str;
+    }
+
+    fullName() {
+        return super.fullName() + ", " + this.gender;
+    }
+}
+
+let Batman = new Superhero("Bruce", "Wayne");
+// console.log( Batman );
+
+let Superman = new Superhero("Klark", "Kent");
+console.log( Superman.name = "Clark" );
+
+let Hulk = new Gender("Bruce", "Banner", "Male");
+// console.log( Hulk );
+
+console.log(Hulk.fullName());
+console.log(Batman.fullName());
