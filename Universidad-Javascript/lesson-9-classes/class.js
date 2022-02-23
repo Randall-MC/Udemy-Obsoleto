@@ -56,7 +56,7 @@ let Batman = new Superhero("Bruce", "Wayne");
 // console.log( Batman );
 
 let Superman = new Superhero("Klark", "Kent");
-console.log( Superman.name = "Clark" );
+// console.log( Superman.name = "Clark" );
 
 let Hulk = new Gender("Bruce", "Banner", "Male");
 // console.log( Hulk );
