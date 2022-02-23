@@ -53,7 +53,7 @@ El desarrollo de software es un proceso que requiere flexibilidad y mucha pacien
 Diferencias entre tester y QA. Aunque en la práctica parecen lo mismo ( para las empresas ) en la teoría un QA ( Quality Assurance Assistant ) es el encargado del aseguramiento del todo el proceso de desarrollo del proyecto ( macro ) y el tester se encarga de la ejecución de las pruebas.
 
 - **Plan de pruebas**  
-¿Qué, Cómo y Cuándo se va a probar?
+¿Qué, Cómo y Cuándo se va a probar?. Como testers somos encargados de diseñar un plan de pruebas ( depende mucho del tipo de proyecto que estemos trabajando ). Si es un proyecto grande vamos a elaborar un plan de pruebas
 - **Casos de prueba**  
 Basado en los requisitos o criterios de aceptación.
 - **Gestionar el ambiente y los datos de prueba**  
